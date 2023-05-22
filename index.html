@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="manifest" href="manifest.json">
+
+
+</head>
+
+<body>
+
+    <header id="navbar">
+        <input type="image" id="logo" src="/images/logo.png" alt="image not found">
+        <ul id="ul">
+            <li>Home</li>
+            <li>About us</li>
+            <li>Contact</li>
+        </ul>
+    </header>
+    <h1 id="text">Image Uploader</h1>
+
+    <div id="container">
+        <canvas id="myCanvas" draggable="true" width="900" height="900">
+        </canvas>
+    </div>
+    <div id="buttons">
+
+        <input type="file" id="image1" name="img" onchange="checkFiles(this.files), loadFile(event)" accept="image/*"
+            multiple>
+
+        <button id='downBtn' >Save as jpg</button>
+
+        <button id="simply">Save as png</button>
+
+    </div>
+
+    
+
+    <script src="script.js"></script>
+    <script src="dom-to-image.js"></script>
+    <script src="FileSaver.js"></script>
+
+</body>
+
+</html>
