@@ -1,0 +1,254 @@
+*{
+    padding:1px;
+    margin: -1px -1px;
+}
+
+#myCanvas{
+        display: grid;
+        display: inline;
+        background-color:white;
+        border: 2px solid black;
+        margin: 0px 0px;
+        margin-left: 0px;
+        width: 721px;
+        height: 446px;
+}
+#container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#navbar{
+    display: flex;
+    align-items: center;
+    position: relative;
+
+}
+#navbar ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 19px;
+    color: rgb(0, 0, 0);
+    font-size: 1rem;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    border-radius: 9px;
+}
+#navbar ul li:hover{
+   color:black;
+   background-color: #e5e5e5;
+}
+#navbar ul{
+    margin-left: -13px;
+
+}
+#image{
+    margin: 0px 0px;
+  
+}
+#logo{
+    width: 128px;
+    height: 138px;
+    margin: -22px 6px;
+    z-index: 1;
+}
+#buttons{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 7px;
+}
+#image1{
+    width:240px;
+    margin: 2px;
+    height: 23px;
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+}
+#downBtn{
+    width:240px;
+    margin: 2px;
+    height: 23px;
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+}
+#simply{
+    width:240px;
+    margin: 2px;
+    height: 23px;
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+}
+
+#text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 46px;
+    margin-bottom: 34px;
+    margin-top: 18px;
+    text-decoration: solid;
+}
+
+@media only screen and (max-width:860px){
+    
+    #myCanvas{
+         width: 690px;
+         height: 400px;
+    }
+    #text{
+        font-size: 60px;
+    }
+    #buttons{
+       flex-direction: column;
+       margin-top: 20px;
+    }
+    #image1{
+        width: 400px;
+        height: 30px;
+        border-radius: 10px;
+        margin-bottom: 7px;
+        
+    }
+    #downBtn{
+        width: 400px;
+        height: 30px;
+        border-radius: 10px;
+        margin-bottom: 7px;
+    }
+    #simply{
+        width: 400px;
+        height: 30px;
+        border-radius: 10px;
+        margin-bottom: 7px;   
+    }
+}
+
+@media only screen and (max-width:719px){
+
+  #text{
+      font-size: 65px;
+      margin-top: 25px;
+      margin-bottom:40px;
+  }
+  #myCanvas{
+      width: 600px;
+      height: 350px;
+      margin-bottom: 10px;
+  }
+  #image1{
+    margin-bottom: 10px;
+    
+}
+#downBtn{
+    margin-bottom: 10px;
+}
+#simply{
+    margin-bottom: 10px;   
+}
+}
+
+@media only screen and (max-width:616px){
+    #myCanvas{
+        width: 450px;
+        height: 350px;
+    }
+    #text{
+        font-size: 40px;
+    }
+}
+@media only screen and (max-width:475px){
+    #text{
+        font-size:50px;
+    }
+    #myCanvas{
+        width: 390px;
+        height: 250px;
+    }
+    #image1{
+        width: 350px;
+        height: 30px
+        
+    }
+    #downBtn{
+        width: 350px;
+        height: 30px
+    }
+    #simply{
+        width: 350px;
+        height: 30px   
+    }
+}
+
+
+@media only screen and (max-width:360px){
+    #navbar > ul > li{
+        padding: 10px;
+       }    
+}
+@media only screen and (max-width:338px){
+    #navbar > ul > li{
+        padding: 5px;
+       }
+       #navbar ul {
+        margin-left: -5px;
+    }
+    #logo{
+        width: 110px;
+        height: 128px;
+        margin: -22px -6px;
+        z-index: 1;
+    }  
+    #text{
+        font-size: 20px;
+    }
+    #myCanvas{
+        width: 350px;
+        height: 220px;
+    }
+    #image1{
+        width: 300px;
+        height: 25px
+        
+    }
+    #downBtn{
+        width: 300px;
+        height: 25px
+    }
+    #simply{
+        width: 300px;
+        height: 25px   
+    }
+}
+
+@media only screen and (max-width:280px){
+    #navbar > ul > li{
+        padding: 4px;
+       }
+       #text{
+           font-size: 30px;
+       }
+       #image1{
+        width: 250px;
+        height: 20px
+        
+    }
+    #downBtn{
+        width: 250px;
+        height: 20px
+    }
+    #simply{
+        width: 250px;
+        height: 20px   
+    }
+}
+
+@media only screen and (max-width:280px){
+     li{
+        padding: 1px;
+       }
+}
